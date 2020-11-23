@@ -1,0 +1,35 @@
+ul{
+    list-style-type:none;
+    border:1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    overflow:hidden;
+}
+li{
+    float:left;
+}
+.nav-right{
+float:right;
+}
+li a{
+    display:block;
+    color:#666;
+    padding:10px;
+}
+a{
+    text-decoration: none;
+    color:#008cba;
+}
+li a:hover{
+    background-color: #dddddd;
+}
+li a.active{
+    background-color: rgb(76,175,80);
+    color:white;
+}
+div{
+    border:3px dotted;
+    border-radius:15px;
+    box-shadow: -15px -10px 0px dimgray;
+    backgroud-image:radial-gradient(white,blue)
+}
+
